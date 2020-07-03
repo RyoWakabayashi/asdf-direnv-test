@@ -1,0 +1,21 @@
+{
+  "name": "asdf-direnv-test",
+  "version": "1.0.0",
+  "description": "Test asdf-direnv settings",
+  "main": "",
+  "scripts": {
+    "show_direnv_env": "echo $DIRENV_ENV"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/RyoWakabayashi/asdf-direnv-test.git"
+  },
+  "author": "RyoWakabayashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyoWakabayashi/asdf-direnv-test/issues"
+  },
+  "homepage": "https://github.com/RyoWakabayashi/asdf-direnv-test#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
