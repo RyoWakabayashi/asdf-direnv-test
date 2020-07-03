@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "post-checkout": "direnv reload"
+      "post-checkout": "./reload.sh"
     }
   }
 }
