@@ -31,5 +31,11 @@ asdf によって各言語の指定バージョンをインストールする
 
 [asdf-direnv が有効になるように設定する][enable-direnv]
 
+    $ asdf exec direnv allow .envrc
+
+## 確認
+
+    $ yarn show_direnv_env
+
 [asdf]: https://github.com/asdf-vm/asdf
 [enable-direnv]: https://github.com/asdf-community/asdf-direnv#usage
