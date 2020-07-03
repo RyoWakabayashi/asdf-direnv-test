@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "post-checkout": "./reload.sh"
+      "post-checkout": "echo hello"
     }
   }
 }
