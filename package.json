@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "show_direnv_env": "echo $DIRENV_ENV",
-    "reload_and_show": "./load_dotenv.sh && yarn show_direnv_env"
+    "reload_and_show": "./load_dotenv.sh"
   },
   "repository": {
     "type": "git",
