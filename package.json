@@ -4,8 +4,7 @@
   "description": "Test asdf-direnv settings",
   "main": "",
   "scripts": {
-    "show_direnv_env": "echo $DIRENV_ENV",
-    "reload_and_show": "direnv reload && yarn show_direnv_env"
+    "show_direnv_env": "echo $DIRENV_ENV"
   },
   "repository": {
     "type": "git",
