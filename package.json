@@ -18,5 +18,12 @@
   },
   "homepage": "https://github.com/RyoWakabayashi/asdf-direnv-test#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "post-checkout": "direnv reload"
+    }
+  }
 }
