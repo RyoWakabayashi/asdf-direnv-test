@@ -31,5 +31,19 @@ asdf によって各言語の指定バージョンをインストールする
 
 [asdf-direnv が有効になるように設定する][enable-direnv]
 
+    $ asdf exec direnv allow .envrc
+
+## 確認
+
+direnv を再読込せずに環境変数を表示する
+
+    $ yarn show_direnv_env
+
+direnv を再読込して環境変数を表示する
+
+⚠️ なぜか環境変数の表示後に再読込が走ってしまう
+
+    $ yarn reload_and_show
+
 [asdf]: https://github.com/asdf-vm/asdf
 [enable-direnv]: https://github.com/asdf-community/asdf-direnv#usage
